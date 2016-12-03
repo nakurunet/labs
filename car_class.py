@@ -3,7 +3,7 @@ class Car(object):
 	#name = "General"
 	#model = "GM"
 	#v_type = None
-	def __init__(self, name="General",model="GM", v_type ):
+	def __init__(self, name="General",model="GM", v_type='' ):
 		self.name = name
 		self.model = model
 		self.v_type = v_type
